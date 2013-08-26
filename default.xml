@@ -17,8 +17,14 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="mokee"
-           fetch=".."
+           fetch="review.mfunz.com"
            review="review.mfunz.com" />
+           
+  <remote  name="NXP"
+           fetch=".." />
+           
+           
+           
 
   <default
            revision="refs/heads/jb-mr2_mkt"
@@ -454,4 +460,7 @@
   <project path="vendor/mk" name="MoKee/android_vendor_mk" />
   <project path="device/generic/goldfish" name="MoKee/android_device_generic_goldfish" groups="pdk" />
   <!-- Devices Paired End -->
+  
+  <project name="NexPerience/android_device_mokee_grouper" path="device/asus/grouper" remote="NXP" />
+  
 </manifest>
