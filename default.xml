@@ -457,6 +457,6 @@
   <project path="device/generic/goldfish" name="MoKee/android_device_generic_goldfish" groups="pdk" />
   <!-- Devices Paired End -->
   
-  <project name="NexPerience/android_device_mokee_grouper" path="device/asus/grouper" remote="NXP" />
+  <project name="NexPerience/android_device_mokee_grouper" path="device/asus/grouper"/>
   
 </manifest>
