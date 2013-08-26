@@ -10,8 +10,7 @@
            review="review.mfunz.com" />
 
   <remote  name="local"
-           fetch="git://review.mfunz.com/github"
-           review="review.mfunz.com" />
+           fetch=".." />
 	   
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -19,10 +18,7 @@
   <remote  name="mokee"
            fetch="review.mfunz.com"
            review="review.mfunz.com" />
-           
-  <remote  name="NXP"
-           fetch=".." />
-           
+
            
            
 
